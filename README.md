@@ -34,7 +34,9 @@ button.addEventListener('click', function(e) {
 
 ### Which statement is the correct way to create a variable called rate and assign it the value 100?
 
-- let rate = 100;
+```javascript
+let rate = 100;
+```
 
 ----------------------------------------------------------
 
@@ -71,7 +73,9 @@ console.log('Results shown');
 
 ### Review the code below. Which statement calls the addTax function and passes 50 as the argument?
 
-- addTax(50);
+```javascript
+addTax(50);
+```
 
 ----------------------------------------------------------
 
@@ -83,6 +87,7 @@ var WinterStorm = function () {};
 WinterStorm.prototype = new Storm();
 WinterStorm.prototype.precip = 'snow';
 var bob = new WinterStorm();
+
 console.log(bob.precip);
 
 ```
@@ -104,6 +109,7 @@ function logThis() {
   this.desc="logger";
   console.log(this);
 }
+
 new logThis();
 ```
 
@@ -128,9 +134,7 @@ console.log(typeof(42));
 
 ### How is a forEach statement different from a for statement?
 
-```javascript
-A for statement is generic, but a forEach statement can be used only with an array
-```
+- A for statement is generic, but a forEach statement can be used only with an array
 
 ----------------------------------------------------------
 
@@ -167,7 +171,7 @@ roadTypes[2]
 ### Which method converts JSON data to a JavaScript object?
 
 ```javascript
-- JSON.parse()
+JSON.parse()
 ```
 
 ----------------------------------------------------------
