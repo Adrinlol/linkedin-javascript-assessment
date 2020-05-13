@@ -1,5 +1,5 @@
 ## LinkedIn JavaScript Assessment
-LinkedIn Assessments - JavaScript 2019
+LinkedIn Assessments - JavaScript 2019-2020
 
 
 ## Overview
@@ -22,7 +22,6 @@ button.addEventListener('click', function(e) {
 
 ----------------------------------------------------------
 
-
 ### Which statement references the DOM node created by the code shown?
 
 ```
@@ -38,7 +37,6 @@ button.addEventListener('click', function(e) {
 - let rate = 100;
 
 ----------------------------------------------------------
-
 
 ### When would the final statement in the code shown be logged to the console?
 ```javascript
@@ -59,9 +57,7 @@ console.log('Results shown');
 
 ----------------------------------------------------------
 
-
 ### When would you use a conditional statement?
-
 
 - When you want your code to choose between multiple options.
 
@@ -124,13 +120,71 @@ console.log(typeof(42));
 
 ----------------------------------------------------------
 
+### Which operator returns true if the two compared values are not equal?
+ 
+- !== 
 
+----------------------------------------------------------
 
+### How is a forEach statement different from a for statement?
 
+```javascript
+A for statement is generic, but a forEach statement can be used only with an array
+```
 
+----------------------------------------------------------
 
+### Which statement is the correct way to create a variable called rate and assign it the value 100?
 
+```javascript
+let rate = 100;
+```
 
+----------------------------------------------------------
 
+### Which statement creates a new object using the Person constructor?
 
+```javascript
+var student = new Person();
+```
 
+----------------------------------------------------------
+
+### How would you reference the text 'avenue' in the code shown?
+
+```javascript
+roadTypes[2]
+```
+
+----------------------------------------------------------
+
+### Which property references the DOM object that dispatched an event?
+
+- target
+
+----------------------------------------------------------
+
+### Which method converts JSON data to a JavaScript object?
+
+```javascript
+- JSON.parse()
+```
+
+----------------------------------------------------------
+
+### When would you use a conditional statement?
+
+- When you want your code to choose between multiple options
+
+----------------------------------------------------------
+
+### What would be the result in the console of running this code?
+
+```javascript
+for(var i=0; i<5; i++){ 
+  console.log(i); 
+}
+
+```
+
+- 01234 
