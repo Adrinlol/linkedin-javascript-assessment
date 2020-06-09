@@ -192,3 +192,10 @@ for(var i=0; i<5; i++){
 ```
 
 - 01234 
+
+----------------------------------------------------------
+
+### What is the name of a function whose execution can be suspended and resumed at a later point?
+
+- Generator
+
