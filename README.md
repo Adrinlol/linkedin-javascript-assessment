@@ -350,3 +350,15 @@ console.log(sayHello.prototype);
 - Set
 
 ----------------------------------------------------------
+
+#### Q38. The following program has a problem. What is it?
+
+```javascript
+var a;
+var b = (a = 3) ? true: false
+
+```
+
+- The condition in the ternary is using the assignment operator.
+
+----------------------------------------------------------
