@@ -113,7 +113,7 @@ function logThis() {
 new logThis();
 ```
 
-- Function
+- logThis { desc: 'logger' }
 
 ----------------------------------------------------------
 
@@ -360,5 +360,39 @@ var b = (a = 3) ? true: false
 ```
 
 - The condition in the ternary is using the assignment operator.
+
+----------------------------------------------------------
+#### Q39. For the following class, how do you geet value of 42 from `x`?
+
+```javascript
+
+class X{
+    get Y(){return 42;}
+}
+var x = new X();
+
+```
+
+- x.Y
+
+----------------------------------------------------------
+#### Q40. What is the result?
+
+```javascript
+
+sum(10,20);
+diff(10,20);
+
+function sum(x,y){
+  return x+y;
+}
+
+let diff = function(x,y){
+  return x-y;
+}
+
+```
+
+- ReferenceError
 
 ----------------------------------------------------------
