@@ -396,3 +396,7 @@ let diff = function(x,y){
 - ReferenceError
 
 ----------------------------------------------------------
+
+#### Q41. Which variable is an implicit parameter for every function in JavaScript?
+
+- Arguments
