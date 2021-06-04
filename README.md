@@ -65,13 +65,7 @@ console.log('Results shown');
 
 ----------------------------------------------------------
 
-#### Q7. How is forEach statement different from a for statement?
-
-- A for statement is generic but a forEach statement can be used only with an array.
-
-----------------------------------------------------------
-
-#### Q8. Review the code below. Which statement calls the addTax function and passes 50 as the argument?
+#### Q7. Review the code below. Which statement calls the addTax function and passes 50 as the argument?
 
 ```javascript
 addTax(50);
@@ -79,7 +73,7 @@ addTax(50);
 
 ----------------------------------------------------------
 
-#### Q9. What is the result in the console of running the code shown?
+#### Q8. What is the result in the console of running the code shown?
 ```javascript
 var Storm = function () {};
 Storm.prototype.precip = 'rain';
@@ -96,13 +90,13 @@ console.log(bob.precip);
 
 ----------------------------------------------------------
 
-#### Q10. How does a function create a closure?
+#### Q9. How does a function create a closure?
 
 - It returns a reference to a variable in its parent scope.
 
 ----------------------------------------------------------
 
-#### Q11. What is the result in the console of running this code?
+#### Q10. What is the result in the console of running this code?
 ```javascript
 "use strict";
 function logThis() {
@@ -117,7 +111,7 @@ new logThis();
 
 ----------------------------------------------------------
 
-#### Q12. What is the result of running this statement?
+#### Q11. What is the result of running this statement?
 ```javascript
 console.log(typeof(42));
 ```
@@ -126,19 +120,19 @@ console.log(typeof(42));
 
 ----------------------------------------------------------
 
-#### Q13. Which operator returns true if the two compared values are not equal?
+#### Q12. Which operator returns true if the two compared values are not equal?
  
 - !== 
 
 ----------------------------------------------------------
 
-#### Q14. How is a forEach statement different from a for statement?
+#### Q13. How is a forEach statement different from a for statement?
 
 - A for statement is generic, but a forEach statement can be used only with an array
 
 ----------------------------------------------------------
 
-#### Q15. Which statement is the correct way to create a variable called rate and assign it the value 100?
+#### Q14. Which statement is the correct way to create a variable called rate and assign it the value 100?
 
 ```javascript
 let rate = 100;
@@ -146,7 +140,7 @@ let rate = 100;
 
 ----------------------------------------------------------
 
-#### Q16. Which statement creates a new object using the Person constructor?
+#### Q15. Which statement creates a new object using the Person constructor?
 
 ```javascript
 var student = new Person();
@@ -154,7 +148,7 @@ var student = new Person();
 
 ----------------------------------------------------------
 
-#### Q17. How would you reference the text 'avenue' in the code shown?
+#### Q16. How would you reference the text 'avenue' in the code shown?
 
 ```javascript
 roadTypes[2]
@@ -162,13 +156,13 @@ roadTypes[2]
 
 ----------------------------------------------------------
 
-#### Q18. Which property references the DOM object that dispatched an event?
+#### Q17. Which property references the DOM object that dispatched an event?
 
 - target
 
 ----------------------------------------------------------
 
-#### Q19. Which method converts JSON data to a JavaScript object?
+#### Q18. Which method converts JSON data to a JavaScript object?
 
 ```javascript
 JSON.parse()
@@ -176,13 +170,13 @@ JSON.parse()
 
 ----------------------------------------------------------
 
-#### Q20. When would you use a conditional statement?
+#### Q19. When would you use a conditional statement?
 
 - When you want your code to choose between multiple options
 
 ----------------------------------------------------------
 
-#### Q21. What would be the result in the console of running this code?
+#### Q20. What would be the result in the console of running this code?
 
 ```javascript
 for(var i=0; i<5; i++){ 
@@ -195,13 +189,13 @@ for(var i=0; i<5; i++){
 
 ----------------------------------------------------------
 
-#### Q22. What is the name of a function whose execution can be suspended and resumed at a later point?
+#### Q21. What is the name of a function whose execution can be suspended and resumed at a later point?
 
 - Generator
 
 ----------------------------------------------------------
 
-#### Q23. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
+#### Q22. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
 ```javascript
 for (var i=1; i<=4; i++){
@@ -216,19 +210,19 @@ for (var i=1; i<=4; i++){
 
 ----------------------------------------------------------
 
-#### Q24. Which statement creates a new function called discountPrice?
+#### Q23. Which statement creates a new function called discountPrice?
 
 - ```let discountPrice = function(price) { return price * 0.85; };```
 
 ----------------------------------------------------------
 
-#### Q25. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
+#### Q24. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
 - /\d\d:\d\d:\d\d/
 
 ----------------------------------------------------------
 
-#### Q26. How many prototype objects are in the chain for the following array?
+#### Q25. How many prototype objects are in the chain for the following array?
 
 ```javascript
 let arr = [];
@@ -238,13 +232,13 @@ let arr = [];
 
 ----------------------------------------------------------
 
-#### Q27. Which of the following is not a unary operator?
+#### Q26. Which of the following is not a unary operator?
 
 - instanceof 
 
 ----------------------------------------------------------
 
-#### Q28. What type of scope does the end variable have in the code shown?
+#### Q27. What type of scope does the end variable have in the code shown?
 
 ```javascript
 var start = 1;
@@ -257,7 +251,7 @@ if (start === 1) {
 
 ----------------------------------------------------------
 
-#### Q29. What will the value of y be in this code:
+#### Q28. What will the value of y be in this code:
 
 ```javascript
 const x = 6 % 2;
@@ -268,19 +262,19 @@ const y = x ? 'One': 'Two';
 
 ----------------------------------------------------------
 
-#### Q30. Which keyword is used to create an error?
+#### Q29. Which keyword is used to create an error?
 
 - throw
 
 ----------------------------------------------------------
 
-#### Q31. What's one difference between the async and defer attributes of the HTML script tag?
+#### Q30. What's one difference between the async and defer attributes of the HTML script tag?
 
 - The defer attribute will asynchronously load the scripts in order
 
 ----------------------------------------------------------
 
-#### Q32. The following program has a problem. What is it?
+#### Q31. The following program has a problem. What is it?
 
 ```javascript
 var a;
@@ -291,7 +285,7 @@ var b = (a = 3) ? true: false
 
 ----------------------------------------------------------
 
-#### Q33. Which statement references the DOM node created by the code shown?
+#### Q32. Which statement references the DOM node created by the code shown?
 
 ```javascript
 <p class="pull">lorem ipsum</p>
@@ -301,7 +295,7 @@ var b = (a = 3) ? true: false
 
 ----------------------------------------------------------
 
-#### Q34. What value does the code return?
+#### Q33. What value does the code return?
 
 ```javascript
 let answer = true;
@@ -316,7 +310,7 @@ if (answer === false) {
 
 ----------------------------------------------------------
 
-#### Q35. What is the result in the console of running the code shown?
+#### Q34. What is the result in the console of running the code shown?
 
 ```javascript
 var start = 1;
@@ -331,7 +325,7 @@ console.log(end);
 
 ----------------------------------------------------------
 
-#### Q36. What will this code log in the console?
+#### Q35. What will this code log in the console?
 
 ```javascript
 function sayHello() {
@@ -345,13 +339,13 @@ console.log(sayHello.prototype);
 
 ----------------------------------------------------------
 
-#### Q37. Which collection object allows unique value to be inserted only once?
+#### Q36. Which collection object allows unique value to be inserted only once?
 
 - Set
 
 ----------------------------------------------------------
 
-#### Q38. The following program has a problem. What is it?
+#### Q37. The following program has a problem. What is it?
 
 ```javascript
 var a;
@@ -362,7 +356,7 @@ var b = (a = 3) ? true: false
 - The condition in the ternary is using the assignment operator.
 
 ----------------------------------------------------------
-#### Q39. For the following class, how do you geet value of 42 from `x`?
+#### Q38. For the following class, how do you geet value of 42 from `x`?
 
 ```javascript
 
@@ -376,7 +370,7 @@ var x = new X();
 - x.Y
 
 ----------------------------------------------------------
-#### Q40. What is the result?
+#### Q39. What is the result?
 
 ```javascript
 
@@ -397,6 +391,6 @@ let diff = function(x,y){
 
 ----------------------------------------------------------
 
-#### Q41. Which variable is an implicit parameter for every function in JavaScript?
+#### Q40. Which variable is an implicit parameter for every function in JavaScript?
 
 - Arguments
