@@ -404,3 +404,8 @@ let diff = function(x,y){
 
 ```
 - False
+
+#### Q42. Which statement is true about Functional Programming?
+
+- Side effects are not allowed.
+
