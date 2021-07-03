@@ -1,5 +1,5 @@
 ## LinkedIn JavaScript Assessment
-LinkedIn Assessments - JavaScript 2019-2020
+LinkedIn Assessments - JavaScript 2019-2021
 
 
 ## Overview
@@ -405,7 +405,14 @@ let diff = function(x,y){
 ```
 - False
 
+----------------------------------------------------------
+
 #### Q42. Which statement is true about Functional Programming?
 
 - Side effects are not allowed.
 
+----------------------------------------------------------
+
+#### Q43. Which choice is not a unary operator?
+
+- instanceof
