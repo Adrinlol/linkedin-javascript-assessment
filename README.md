@@ -416,3 +416,17 @@ let diff = function(x,y){
 #### Q43. Which choice is not a unary operator?
 
 - instanceof
+
+----------------------------------------------------------
+
+#### Q44. What will the value of y be in this code:
+
+```javascript
+
+const x = 6 % 2;
+const y = x ? 'One' : 'Two';
+
+```
+
+- Two
+
