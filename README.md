@@ -430,3 +430,19 @@ const y = x ? 'One' : 'Two';
 
 - Two
 
+----------------------------------------------------------
+
+#### Q45. What value does this code return?
+
+```javascript
+
+let answer = true;
+if (answer === false) {
+  return 0;
+} else {
+  return 10;
+}
+
+```
+
+- 10
