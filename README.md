@@ -446,3 +446,20 @@ if (answer === false) {
 ```
 
 - 10
+
+----------------------------------------------------------
+
+#### Q46.  What two values will this code print?
+
+```javascript
+
+function printA() {
+  console.log(answer);
+  var answer = 1;
+}
+printA();
+printA();
+
+```
+
+- undefined then undefined
