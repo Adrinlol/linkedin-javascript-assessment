@@ -463,3 +463,9 @@ printA();
 ```
 
 - undefined then undefined
+
+----------------------------------------------------------
+
+#### Q47.  Why might you choose to make your code asynchronous?
+
+- to start tasks that might take some time without blocking subsequent tasks from executing immediately
